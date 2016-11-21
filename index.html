@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+  <title> Trivia game</title>
+  	
+<!--  For responsivnes/media query --><!-- 
+<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<!--  Reset CSS -->
+<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--  Fonts from google font (font-family: 'Varela Round', sans-serif;) -->
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<!-- My CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+
+<div class="jumbotron">
+    <h1 class="text-center"> Trivia Game </h1>
+</div>
+
+<!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12 text-center">
+            <div id="display">00:00</div>
+      		<!-- Div containing our stopwatch controls -->
+      		<div id="buttons">
+       		 <button id="start">Start</button>
+       		 <button id="reset">Reset</button>
+
+
+                <h1>.........Question .......</h1>
+             		<div id="questions-section">
+             		</div>
+
+  				<button type="button" class="btn btn-primary">Submit</button>
+        	</div>
+   		</div>
+   	</div>
+  
+
+
+    
+
+<!-- Adds a link to the Javascript file. Loaded at the bottom so it waits for the HTML content to display first. If you put this at the top it will crash, because the HTML IDs won't exist yet.-->
+   
+    
+<!-- Added link to the jQuery library -->
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+<!--  javascript link in my assets folder  -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+   
+ 	
+
+
+</body>
+</html>
